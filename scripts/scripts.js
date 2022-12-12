@@ -58,7 +58,7 @@ function recalculate()
 
 
 // INSERT YOUR CODE HERE
-modelButton=document.getElementById("model-button");
+var modelButton=document.getElementById("model-button");
 modelButton.addEventListener("click",changeModel);
 function changeModel()
 {
@@ -95,7 +95,7 @@ function changeModel()
 
 // INSERT YOUR CODE HERE
 
-durationButton=document.getElementById("duration-button");
+var durationButton=document.getElementById("duration-button");
 durationButton.addEventListener("click", changeDuration);
 function changeDuration()
 {
